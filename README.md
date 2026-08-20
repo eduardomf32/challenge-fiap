@@ -25,7 +25,7 @@ O desafio desta fase é colocar a aplicação monolítica do ToggleMaster no. Pr
 
 ---
 
-## 12-Factor-App do projeto ToggleMaster
+## ⚙️ 12-Factor-App do projeto ToggleMaster
 
 Avaliamos a arquitetura do **ToggleMaster (Fase 1)** sob os princípios da metodologia **12-Factor App**:
 
