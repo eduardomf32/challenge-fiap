@@ -21,6 +21,6 @@ O desafio desta fase é colocar a aplicação monolítica do ToggleMaster no. Pr
 
 ### Diagrama de Arquitetura
 
-![Diagrama de Arquitetura](img/TECH-CHALLENGE-1.png)
+<!-- ![Diagrama de Arquitetura](img/TECH-CHALLENGE-1.png) -->
 
 ---
