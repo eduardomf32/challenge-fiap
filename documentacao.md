@@ -128,24 +128,15 @@ seu-projeto-terraform/
 
 ### Resumo Quantitativo
 
-| Categoria | Recurso | Quantidade | Descrição |
-|-----------|---------|------------|-----------|
-| **Networking** | VCN Principal | 1 | Rede virtual (10.0.0.0/16) |
-| | Subnet Pública | 1 | Para instâncias Compute |
+| Categoria | Recurso |    Nome    |  Quantidade | Descrição |
+|-----------|---------|------------|-------------|-----------|
+| **Networking** | VPC | vpc-main | 1 | Rede virtual (10.0.0.0/16) |
+| | Subnet Pública |  | 1 | Para instâncias Compute |
+| | Subnet Pública | 1 |
 | | Internet Gateway | 1 | Acesso à internet |
-| | Security List | 1 | Regras de firewall |
-| **Networking OKE** | VCN OKE | 1 | Rede dedicada Kubernetes (10.10.0.0/16) |
-| | Subnets | 5 | API, Workers, LB, Pods, DB |
-| | NAT Gateway | 1 | Saída para subnets privadas |
-| | Service Gateway | 1 | Acesso a serviços OCI |
-| **Compute** | Instances | 2 | VM.Standard.E2.1.Micro (Free Tier) |
-| **Kubernetes** | OKE Cluster | 1 | Kubernetes gerenciado v1.34.1 |
-| | Node Pool | 1 | Workers para pods |
-| **Database** | NoSQL Table | 1 | Tabela Analytics |
-| | NoSQL Indexes | 2 | Índices para queries |
-| **Messaging** | Queue | 1 | Fila principal |
-| | Dead Letter Queue | 1 | DLQ para mensagens com erro |
-| **Registry** | OCIR Repositories | 5 | Repositórios de containers |
+| | 
+| **Compute** | Instances | 1 | VM.Standard.E2.1.Micro (Free Tier) **Verificar qual usamos** |
+| **Database** | Aurora Postgre | 1 |  |
 
 ### Detalhamento por Arquivo
 
